@@ -13,7 +13,7 @@ const Shop = () => {
     document.title = "Shop More"
 
     useEffect(()=>{
-        fetch('https://floating-waters-67988.herokuapp.com/products?search='+search)
+        fetch('https://immense-ocean-92477.herokuapp.com/products?search='+search)
         .then(res => res.json())
         .then(data => setProducts(data))
     }, [search])
@@ -21,7 +21,7 @@ const Shop = () => {
     useEffect(()=>{
         const savedCart = getDatabaseCart();
         const productKeys = Object.keys(savedCart);
-        fetch('https://floating-waters-67988.herokuapp.com/productsByKeys', {
+        fetch('https://immense-ocean-92477.herokuapp.com/productsByKeys', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

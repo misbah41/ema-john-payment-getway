@@ -2,7 +2,7 @@
   "name": "ema-john-simple",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://floating-waters-67988.herokuapp.com",
+  "proxy": "https://immense-ocean-92477.herokuapp.com",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
